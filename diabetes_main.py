@@ -18,7 +18,7 @@ _acc_dt=0.0
 _acc_lr=0.0
 def _for_diabetes():
         #Reading dataset: creditcard.csv
-        dataset= pd.read_csv(r'C:\Users\Subir Kundu\Desktop\HEALTH\diabetes_data.csv')
+        dataset= pd.read_csv(r'ur_local_diabetes_data.csv_file_location')
         #print('Dataset Information:\n',dataset.info())
         print('Dataset Read')
 
