@@ -8,7 +8,7 @@ algorithms.
 
 GUI based program for a more interactive experience
 
-Program is divided into 6 modules: Separate Heart and Diabetes detector, Splitting the datasets into Training and Testing datasets, Logistic Regression, Decision Tree and Main Health.py Program to combine all together and implement the GUI part
+Program is divided into 6 modules: Separate Heart and Diabetes detector, Splitting the datasets into Training and Testing datasets, Logistic Regression, Decision Tree and Main Health.py Program to combine all together and implement the GUI part, where the specific disease is to be given as input in the Name of the Disease field, then the respective Dependent columns and Independent columns must be split into Training and Testing datasets{THIS PART IS DONE IN THE SHELL, WHILE THE GUI WINDOW WILL STILL BE RUNNING}. Then the User presses the button for Suitable Algorithm(s). And finally determine the best algorithm for the model. Only the accuracies will be displayed in the GUI window, rest of the output will the displaye in the Shell simultaneously.
 
 Datasets used: 
 
