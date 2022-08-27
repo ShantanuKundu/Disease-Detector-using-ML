@@ -19,8 +19,9 @@ _acc_dt=0.0
 _acc_lr=0.0
 def _for_breast():
         #Reading dataset: creditcard.csv
-        dataset= pd.read_csv(r'C:\Users\Subir Kundu\Desktop\HEALTH\breast_cancer_data.csv')
+        dataset= pd.read_csv(r'ur_local_diabetes_data.csv_file_location')
         dataset.diagnosis.replace(["M", "B"], [1, 0], inplace=True)
+        #Diagnosis (M = malignant[1], B = benign[0])
         #print('Dataset Information:\n',dataset.info())
         print('Dataset Read')
 
